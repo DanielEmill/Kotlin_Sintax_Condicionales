@@ -13,5 +13,11 @@ fun main() {
     {
         println("No entraste a ninguna de la dos puerta.")
     }
+    when(Color){
+        "Negro" -> println("Entraste a la puerta negra.")
+        "Blanco" -> println("Entraste a la puerta blanca.")
+        else -> println("Colores invalidos")
+
+    }
 
 }
