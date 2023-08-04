@@ -28,4 +28,23 @@ fun main() {
         else -> println("x no es un entero.")
     }
 
+    val x1 = 10
+    val result = if (x1 > 5) {
+        "x es mayor que 5"
+    } else {
+        "x es menor o igual a 5"
+    }
+    println(result)
+
+//Variable Null
+    var favoriteActor: String? = "Sandra Oh"
+
+    if(favoriteActor!=null){
+        println("Hola")
+    }
+    favoriteActor = null
+    if(favoriteActor!=null){
+        println("Hola")
+    }
+
 }
